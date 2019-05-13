@@ -5,6 +5,7 @@ import { IncomingMessage, ServerResponse } from 'http';
 import { History, Location } from 'history';
 
 export type TRouteData = any;
+export type TRoutes = Array<TRouteData>;
 
 export interface DocumentProps {
   req: Request;

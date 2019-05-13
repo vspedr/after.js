@@ -1,5 +1,7 @@
 import { AsyncRouteableComponent, AsyncRouteComponentType, AsyncRouteProps } from "./types";
 import { matchPath } from 'react-router-dom';
+// @ts-ignore
+import { ReactElement, ReactNodeArray, ReactPortal } from 'react';
 
 /** @private is the given object a Function? */
 export const isFunction = (obj: any) => 'function' === typeof obj;
